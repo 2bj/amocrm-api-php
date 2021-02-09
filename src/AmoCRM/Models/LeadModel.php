@@ -1059,7 +1059,7 @@ class LeadModel extends BaseApiModel implements TypeAwareInterface, CanBeLinkedI
     /**
      * @return string[]
      */
-    public function getComplexRequestIds(): array
+    public function getComplexRequestIds(): ?array
     {
         return $this->complexRequestIds;
     }
